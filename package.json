@@ -54,6 +54,7 @@
     "typescript": "^3.8.3"
   },
   "types": "dist/",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "nyc": {
     "extension": [
       ".ts"
